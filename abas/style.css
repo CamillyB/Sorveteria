@@ -1,0 +1,171 @@
+      
+        :root{
+            --color-white: #fefbfe;
+            --color-dark1: #f9bcf7;
+            --color-dark2: #cf45a6;
+            --color-dark3: #719e70;
+            --color-dark4: #fd00b1;
+            --color-dark5: #fefefe;
+            --color-purple: #fefefe;
+        }
+        
+        #s1{
+            height: 13rem;
+            margin: 2rem;
+            border-radius: 1cm;
+        }
+        #s2{
+            height: 13rem;
+            margin: 2rem;
+            border-radius: 1cm;
+        }
+
+        #s6{
+            height: 13rem;
+            margin: 2rem;
+            border-radius: 1cm;
+        }
+
+        #s5{
+            height: 13rem;
+            margin: 2rem;
+            border-radius: 1cm;
+        }
+        #s3{
+            height: 13rem;
+            margin: 2rem;
+            border-radius: 1cm;
+        }
+
+#s4{
+    height: 13rem;
+    margin: 2rem;
+    border-radius: 1cm;
+}
+        #sor{
+            margin: 2rem;
+            border-radius: 1cm;
+        }
+        #sorvete{
+            height: 14rem;
+            margin: 2rem;
+            border-radius: 1cm;
+        }
+       #ordem{
+        margin: 3rem;
+        color: #181717; 
+       }
+
+       #initexto{
+        margin: 2rem;
+        color: #181717;
+       }
+
+    #info{
+        margin: 3rem;
+    }
+    #infor{
+        margin: 3rem;
+    }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+
+             background: url(imagem/Doce_Sabor\ 89.png);
+            background-image: -moz-linear-gradient();
+      
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: var(--color-dark1);
+            color: var(--color-white);
+        }
+        .img_logo_header{
+            width: 40px;
+        }
+        .header,
+        .navigation_header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .header{
+            background-color: var(--color-dark2);
+            justify-content: space-between;
+            padding: 0 10%;
+            height: 3em;
+            box-shadow: 1px 1px 4px var(--color-dark4);
+        }
+        .navigation_header{
+            gap: 3em;
+            z-index: 2;
+        }
+        .content{
+            padding-top: 5em;
+            text-align: center;
+            height: 100vh;
+            transition: 1s;
+        }
+        .navigation_header a{
+            text-decoration: none;
+            color: var(--color-purple);
+            transition: 1s;
+            font-weight: bold;
+        }
+        .navigation_header a:hover{
+            color: var(--color-white);
+        }
+        .active{
+            background: var(--color-dark3);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .btn_icon_header{
+            background: transparent;
+            border: none;
+            color: var(--color-white);
+            cursor: pointer;
+            display: none;
+        }
+        @media screen and (max-width: 768px) {
+            .navigation_header{
+                position: absolute;
+                flex-direction: column !important;
+                top: 0;
+                background: var(--color-dark5);
+                height: 100%;
+                width: 35vw;
+                padding: 1em;
+                animation-duration: 1s;
+                margin-left: -100vw;
+            }
+            .btn_icon_header{
+                display: block;
+            }
+        }
+        @keyframes showSidebar {
+            from {margin-left: -100vw;}
+            to {margin-left: -10vw;}
+        }
+
+
+
+        .footer{
+            background-color: var(--color-dark2);
+            justify-content: space-between;
+            padding: 0 10%;
+            height: 3.5em;
+            box-shadow: 1px 1px 4px var(--color-dark4);
+        }     
+        :root {
+            --body-bg-color: #181717;
+            --purple: #0b0a0b;
+          }
+         
+        
+       
+        
+        
+       
+             
